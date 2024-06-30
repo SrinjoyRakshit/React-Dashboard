@@ -1,0 +1,10 @@
+.customers{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    color: #616161;
+
+    .customerContainer{
+        flex: 6;
+    }
+}

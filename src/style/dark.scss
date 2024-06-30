@@ -1,0 +1,115 @@
+.app.dark {
+  background-color: black;
+  color: rgb(156, 156, 156);
+
+  .navbar {
+    background-color: black;
+    color: #999;
+    border-color: #333;
+
+    .search {
+      border-color: #616161;
+
+      input {
+        color: #999;
+      }
+    }
+  }
+
+  .sidebar {
+    background-color: black;
+    border-color: #333;
+
+    .top {
+      .logo {
+        color: #fff;
+      }
+    }
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+
+        .icon {
+          color: #999;
+        }
+      }
+    }
+  }
+
+  .home {
+    background-color: black;
+    color: #999;
+
+    .home-container {
+      background-color: black;
+      color: #999;
+    }
+  }
+
+  .list {
+    background-color: black;
+    color: #999;
+
+    .tableCell {
+      background-color: black;
+      color: #999;
+
+      span {
+        background-color: black;
+        color: #999;
+        border: 1px dashed #999;
+      }
+    }
+  }
+
+  .single {
+    background-color: black;
+    color: #999;
+  }
+
+  .product {
+    .productContainer {
+      background-color: black;
+      color: #999;
+    }
+  }
+
+  .new {
+    background-color: black;
+    color: #999;
+
+    imput{
+        background-color: black;
+        color: #999;
+    }
+  }
+
+  .product {
+    .productLists {
+      background-color: black;
+      color: #999;
+
+      .tableCell{
+        background-color: black;
+        color: #999;
+      }
+    }
+  }
+
+  .datatable {
+    background-color: black;
+    color: #999;
+
+    .datagrid {
+      color: gray;
+      border: none;
+
+      .viewButton,
+      .deleteButton {
+        color: gray;
+      }
+    }
+  }
+}

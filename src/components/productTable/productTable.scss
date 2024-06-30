@@ -1,0 +1,28 @@
+.productTable{
+    color: #616161;
+
+    .tableCell{
+        color: #616161;
+        background-color: whitesmoke;
+
+        .cellWrapper{
+            display: flex;
+            align-items: center;
+
+            .image{
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 10px;
+            }
+        }
+
+        span{
+            background-color: #210876;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 6px;
+        }
+    }
+}
